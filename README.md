@@ -57,7 +57,8 @@ Model training and evaluation were performed inside structured Jupyter notebooks
 Rather than relying solely on accuracy, model performance was examined through:
 - Confusion matrices
 - ROC curves
-- Threshold-dependent behavior analysisThis allows a transparent understanding of how classification behavior changes under different decision boundaries.
+- Threshold-dependent behavior analysis
+This allows a transparent understanding of how classification behavior changes under different decision boundaries.
 
 All experiments and metrics were tracked using Weights & Biases.
 
