@@ -14,7 +14,7 @@ def malaria_detector(img_array):
 
     test_image = cv2.resize(img_array, (224, 224))
     test_image = np.float32(test_image) 
-    test_image = np.expand_dims(test_image, 0)    # add batch dimension
+    test_image = np.expand_dims(test_image, 0)  
 
     classes = ['Uninfected', 'Parasitized']
 
@@ -26,7 +26,6 @@ def malaria_detector(img_array):
     print(onnx_pred)
     
     probs = probs.tolist()
-    # If model outputs a single probability → make it [p, 1-p]
     probs = [probs[0], 1 - probs[0]]
 
  
