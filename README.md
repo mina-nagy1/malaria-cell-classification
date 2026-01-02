@@ -101,52 +101,6 @@ The conversion and quantization pipeline is documented in:
 notebooks/Quantization.ipynb
 
 
-## Repository Structure
-
-malaria-cell-classification/
-│
-├── data/
-│   └── README.md                 # Dataset description & access (TFDS)
-│
-├── notebooks/
-│   ├── Malaria_Detection.ipynb
-│   └── Quantization.ipynb
-│
-├── reports/
-│   ├── figures/
-│   └── wandb_report.pdf
-│
-├── src/                          
-│   ├── __init__.py
-│   ├── config.py
-│   ├── dataset.py
-│   └── model.py
-│
-├── deployment/
-│   └── service/
-│       ├── api/
-│       │   ├── __init__.py
-│       │   ├── api.py
-│       │   └── endpoints/
-│       │       ├── __init__.py
-│       │       └── detect.py
-│       │
-│       ├── core/
-│       │   ├── __init__.py
-│       │   └── logic/
-│       │       ├── __init__.py
-│       │       └── onnx_inference.py
-│       │
-│       ├── ui.py                 # Streamlit UI
-│       ├── main.py               # App entry point
-│       └── requirements.txt      # Deployment-only deps
-│
-├── .gitignore
-├── requirements.txt              # Training / research deps
-├── LICENSE
-└── README.md
-
-
 ## License
 
 This project is released under the **MIT License**, allowing reuse with attribution.
