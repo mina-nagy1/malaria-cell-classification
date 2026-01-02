@@ -11,8 +11,3 @@ CLASSIFICATION_THRESHOLD = 0.672
 # Class mapping
 PARASITIZED_CLASS = 0
 UNINFECTED_CLASS = 1
-
-# Paths
-DATA_DIR = "data"
-MODEL_DIR = "models"
-REPORTS_DIR = "reports"
