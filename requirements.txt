@@ -1,0 +1,12 @@
+tensorflow
+tensorflow-datasets
+tensorflow-probability
+numpy
+opencv-python
+matplotlib
+seaborn
+scikit-learn
+wandb
+tf2onnx
+onnx
+ml_dtypes>=0.5
