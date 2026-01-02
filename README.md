@@ -64,17 +64,20 @@ All experiments and metrics were tracked using Weights & Biases.
 
 ## Results & Reporting
 
-A consolidated evaluation report is provided in:
-reports/wandb_report.pdf
+A consolidated experiment tracking and evaluation report is available on Weights & Biases:
+
+**Weights & Biases Report:**  
+https://wandb.ai/Mina_team/Malaria_Detection/reports/Malaria-Detection-using-Convolutional-Neural-Networks--VmlldzoxNTQ4NzQwMQ
 
 The report includes:
--Training and validation curves
--Confusion matrices
--ROC curves with threshold annotations
--Quantitative evaluation tables
+- Training and validation performance curves
+- Confusion matrices at selected decision thresholds
+- ROC curve analysis with threshold annotations
+- Quantitative evaluation tables
 
-Exported figures are stored in:
-reports/figures/
+Key exported figures used in the analysis are stored in:
+`reports/figures/`
+
 
 
 ## Deployment
