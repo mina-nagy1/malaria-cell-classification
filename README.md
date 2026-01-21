@@ -1,4 +1,4 @@
-# Malaria Cell Classification using Deep Learning
+# Malaria Cell Classification using Convolutional Neural Network
 
 This project implements a convolutional neural network (CNN) to classify microscopic blood smear images as parasitized or uninfected, addressing a real-world medical image classification problem related to malaria diagnosis.
 
